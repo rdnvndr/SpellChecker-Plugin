@@ -28,6 +28,7 @@
 #include "spellcheckercoresettings.h"
 #include "spellingmistakesmodel.h"
 #include "suggestionsdialog.h"
+#include "runextensions.h"
 
 #include <coreplugin/session.h>
 #include <coreplugin/icore.h>
@@ -43,9 +44,9 @@
 #include <coreplugin/idocument.h>
 #include <cppeditor/cppmodelmanager.h>
 #include <texteditor/texteditor.h>
+#include <utility>
 #include <utils/algorithm.h>
 #include <utils/fadingindicator.h>
-#include <utils/runextensions.h>
 #include <utils/fileutils.h>
 
 #include <QFuture>

@@ -20,6 +20,8 @@
 
 #pragma once
 
+#include "utils/qtcsettings.h"
+
 #include <QObject>
 #include <QSettings>
 
@@ -35,8 +37,8 @@ public:
   SpellCheckerCoreSettings( const SpellCheckerCoreSettings& settings );
   ~SpellCheckerCoreSettings();
 
-  void saveToSettings( QSettings* settings ) const;
-  void loadFromSettings( QSettings* settings );
+  void saveToSettings(Utils::QtcSettings* settings) const;
+  void loadFromSettings(Utils::QtcSettings* settings);
 
   SpellCheckerCoreSettings& operator=( const SpellCheckerCoreSettings& other );
   bool operator==( const SpellCheckerCoreSettings& other ) const;

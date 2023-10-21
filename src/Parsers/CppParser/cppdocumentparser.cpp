@@ -21,6 +21,7 @@
 #include "../../spellcheckerconstants.h"
 #include "../../spellcheckercore.h"
 #include "../../spellcheckercoresettings.h"
+#include "../../runextensions.h"
 #include "../../Word.h"
 #include "cppdocumentparser.h"
 #include "cppdocumentprocessor.h"
@@ -41,7 +42,6 @@
 #include <texteditor/texteditor.h>
 #include <utils/algorithm.h>
 #include <utils/mimeutils.h>
-#include <utils/runextensions.h>
 #include <utils/qtcassert.h>
 
 #include <QApplication>

@@ -74,6 +74,9 @@ extend_qtc_plugin(SpellChecker
     suggestionsdialog.cpp
     suggestionsdialog.h
     suggestionsdialog.ui
+    runextensions.h
+    runextensions.cpp
+    functiontraits.h
 )
 
 extend_qtc_plugin(SpellChecker
